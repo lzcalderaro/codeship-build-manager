@@ -1,6 +1,6 @@
 <?php
 
-namespace Log;
+namespace LzCalderaro;
 
 class Authentication {
 
@@ -48,8 +48,6 @@ class Authentication {
 		}
 
 		$response = json_decode( $request );
-
-		var_dump( $response );
 
 		static::save_organizations( $response->organizations );
 		static::write_token( $response->access_token );

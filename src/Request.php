@@ -1,6 +1,6 @@
 <?php
 
-namespace Log;
+namespace LzCalderaro;
 
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Exception\RequestException;

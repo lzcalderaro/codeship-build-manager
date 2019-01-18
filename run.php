@@ -17,7 +17,7 @@ echo 'Type your option: ';
 
 $handle  = fopen( 'php://stdin', 'r' );
 $chooice = trim( fgets( $handle ) );
-$api     = new Log\CodeshipAPI();
+$api     = new LzCalderaro\CodeshipAPI();
 
 switch ( $chooice ) {
 	case '1':

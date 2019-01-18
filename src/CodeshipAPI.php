@@ -1,8 +1,8 @@
 <?php
 
-namespace Log;
+namespace LzCalderaro;
 
-use Log\Authentication;
+use LzCalderaro\Authentication;
 
 class CodeshipAPI {
 

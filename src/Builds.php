@@ -1,6 +1,6 @@
 <?php
 
-namespace Log;
+namespace LzCalderaro;
 
 class Builds {
 
